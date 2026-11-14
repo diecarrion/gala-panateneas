@@ -1,0 +1,131 @@
+[
+  {
+    "persona": "theo",
+    "afirmacion": "Dice que se fue de la cella cuando salió Dafne y que salieron juntos hacia el pasillo; que no se quedó trabajando adentro después de que ella se fue.",
+    "evidencias": [
+      "nivel-3/interrogatorios/theo.mp3#t=159",
+      "nivel-3/interrogatorios/theo.mp3#t=179",
+      "nivel-1/accesos.csv#C-0147",
+      "nivel-1/accesos.csv#C-0148",
+      "nivel-3/interrogatorios/dafne.mp3#t=188",
+      "nivel-2/celulares/dafne/whatsapp/Kyra Alexiou.txt#L19",
+      "nivel-2/celulares/nikos/whatsapp/Theo Kallis.txt#L27"
+    ],
+    "explicacion": "El controlador de la Cella registra la salida de Dafne a las 22:46 (C-0147) y la de Theo recién a las 22:53 (C-0148). Dafne declara que no lo vio salir con ella y que quedó ahí con sus cosas. Theo estuvo solo en la cella unos siete minutos con la alarma desconectada (22:40-22:55) y la vitrina ya tapada."
+  },
+  {
+    "persona": "theo",
+    "afirmacion": "Dice que salió por Sur sólo a buscar un cable a su vehículo y que volvió enseguida con el cable, quizás guardado en el bolso.",
+    "evidencias": [
+      "nivel-3/interrogatorios/theo.mp3#t=263",
+      "nivel-1/accesos.csv#S-0029",
+      "nivel-1/accesos.csv#S-0032",
+      "nivel-2/celulares/theo/telegram/result.json#chat-10013:mensaje-46",
+      "nivel-2/celulares/eleni/sms.xml#mensaje-68",
+      "nivel-3/interrogatorios/yannis.mp3#t=216",
+      "nivel-3/interrogatorios/yannis.mp3#t=294"
+    ],
+    "explicacion": "Con el reloj de Sur corregido (+7:13), sale a las 23:01 (S-0029) y vuelve a las 23:08 (S-0032). A las 23:03, desde afuera, le escribe a Hermes Antiques 'listo, ya está en la camioneta'. Yannis declara que salió con el bolso de herramientas hacia la camioneta y volvió con las manos vacías, sin cable ni bolso, y por SMS avisó 'Volvió Theo. Si preguntan ya está adentro'."
+  },
+  {
+    "persona": "theo",
+    "afirmacion": "Dice que su relación con Hermes Antiques es comprar material usado y que los mensajes que tiene con ellos son de trabajo.",
+    "evidencias": [
+      "nivel-3/interrogatorios/theo.mp3#t=301",
+      "nivel-2/celulares/theo/telegram/result.json#chat-10013:mensaje-39",
+      "nivel-2/celulares/theo/telegram/result.json#chat-10013:mensaje-40",
+      "nivel-2/celulares/theo/telegram/result.json#chat-10013:mensaje-42",
+      "nivel-2/celulares/theo/telegram/result.json#chat-10013:mensaje-46"
+    ],
+    "explicacion": "La noche de la gala Hermes Antiques le pregunta '¿sigue en pie lo de la pieza?' y Theo responde 'sí, hay una sola ventana'; Hermes avisa que dejó un sobre en su buzón y a las 23:03 Theo informa 'listo, ya está en la camioneta'. No son mensajes sobre materiales de iluminación y coinciden con la ventana de la alarma apagada."
+  },
+  {
+    "persona": "theo",
+    "afirmacion": "Sobre la cuenta de administración que le pasó Nikos, dice que no recuerda qué pantallas abrió ni a qué hora.",
+    "evidencias": [
+      "nivel-3/interrogatorios/theo.mp3#t=364",
+      "nivel-3/interrogatorios/nikos.mp3#t=130",
+      "nivel-2/celulares/nikos/whatsapp/Theo Kallis.txt#L22",
+      "nivel-1/accesos.csv#C-0162",
+      "nivel-1/accesos.csv#C-0147",
+      "nivel-1/accesos.csv#C-0148",
+      "nivel-2/fotos/IMG_5128.jpg#EXIF"
+    ],
+    "explicacion": "Desde las 19:34 Theo tenía usuario y clave de administración del sistema de accesos, con el pedido explícito de revisar el reloj de Sur. En el registro aparece C-0162 (Petros entrando a la Cella a las 22:48:31), con un número fuera de la secuencia del controlador, para una credencial sin permiso de Cella, mientras la foto de Petros lo ubica en el estacionamiento a las 22:51. No prueba quién lo cargó, pero Theo es quien tenía el acceso y no puede precisar su uso."
+  },
+  {
+    "persona": "petros",
+    "afirmacion": "Dice que entre las 22:40 y las 23:00 estuvo en la terraza en una conversación larga con Kyra y que no salió al estacionamiento en ese horario.",
+    "evidencias": [
+      "nivel-3/interrogatorios/petros.mp3#t=133",
+      "nivel-3/interrogatorios/petros.mp3#t=227",
+      "nivel-3/interrogatorios/kyra.mp3#t=137",
+      "nivel-1/accesos.csv#N-0066",
+      "nivel-1/accesos.csv#N-0069",
+      "nivel-2/fotos/IMG_5128.jpg#EXIF",
+      "nivel-2/celulares/marina/telegram/result.json#chat-10003:mensaje-28",
+      "nivel-2/celulares/marina/telegram/result.json#chat-10003:mensaje-30"
+    ],
+    "explicacion": "Kyra declara que no habló con Petros entre las 22:40 y las 23:00. Petros sale por Norte a las 22:44 (N-0066) y vuelve a las 22:58 (N-0069); su propia foto tiene GPS del estacionamiento a las 22:51, y por Telegram escribe 'ya estoy en Norte' y 'abrí el baúl'."
+  },
+  {
+    "persona": "petros",
+    "afirmacion": "Dice que no entró a la sala interior porque su invitación no lo autorizaba.",
+    "evidencias": [
+      "nivel-3/interrogatorios/petros.mp3#t=309",
+      "nivel-1/accesos.csv#C-0162",
+      "nivel-1/accesos.csv#N-0066",
+      "nivel-2/fotos/IMG_5128.jpg#EXIF"
+    ],
+    "explicacion": "El registro C-0162 lo muestra entrando a la Cella a las 22:48:31, lo que contradiría su declaración. Pero ese evento está fuera de la secuencia del controlador, su credencial no tiene permiso de Cella y a esa hora estaba fuera del recinto según N-0066 y su foto en el estacionamiento. En este punto la declaración es sostenible y el registro no es confiable."
+  },
+  {
+    "persona": "marina",
+    "afirmacion": "Dice que no salió del templo en toda la noche, que siguió adentro entre las 22:40 y las 23:00 y que no recuerda qué había en el baúl de su coche.",
+    "evidencias": [
+      "nivel-3/interrogatorios/marina.mp3#t=133",
+      "nivel-3/interrogatorios/marina.mp3#t=155",
+      "nivel-3/interrogatorios/marina.mp3#t=204",
+      "nivel-1/accesos.csv#N-0067",
+      "nivel-1/accesos.csv#N-0068",
+      "nivel-2/celulares/marina/telegram/result.json#chat-10003:mensaje-25",
+      "nivel-2/celulares/marina/telegram/result.json#chat-10003:mensaje-31",
+      "nivel-2/celulares/marina/telegram/result.json#chat-10003:mensaje-32"
+    ],
+    "explicacion": "Sale por Norte a las 22:45 (N-0067) y vuelve a las 22:57 (N-0068). Por Telegram cita a Petros en el estacionamiento, le dice 'está abierto. guardá el sobre abajo de la manta' y 'entro yo primero. lo de los papeles lo hablamos el lunes'. El intercambio existió, aunque nada en el expediente lo relaciona con la corona."
+  },
+  {
+    "persona": "leon",
+    "afirmacion": "Dice que estuvo toda la noche en el jardín, que no se quedó en la entrada Norte y que no tuvo una discusión ahí.",
+    "evidencias": [
+      "nivel-3/interrogatorios/leon.mp3#t=62",
+      "nivel-3/interrogatorios/leon.mp3#t=86",
+      "nivel-2/celulares/eleni/sms.xml#mensaje-66",
+      "nivel-2/celulares/leon/whatsapp/Familia Kostas.txt#L63",
+      "nivel-2/fotos/IMG_4661.jpg#EXIF",
+      "nivel-3/interrogatorios/nikos.mp3#t=208"
+    ],
+    "explicacion": "A las 22:40 Eleni escribe 'Leon sigue en Norte'; a las 22:46 Leon escribe 'no me están dejando pasar'; la foto de su teléfono tiene GPS de la puerta Norte a las 22:46 (hora GPS, porque el reloj del equipo estaba reseteado). Nikos declara que lo encontró discutiendo en Norte y se quedó con él hasta las 22:52."
+  },
+  {
+    "persona": "dafne",
+    "afirmacion": "Dice que al hacer la foto de las 22:45 dejó la tela negra un momento sobre una silla.",
+    "evidencias": [
+      "nivel-3/interrogatorios/dafne.mp3#t=156",
+      "nivel-2/fotos/IMG_6152.jpg#imagen"
+    ],
+    "explicacion": "En su propia foto de las 22:45 la tela negra está doblada sobre un peldaño de la escalera de Theo, no sobre una silla. Es un detalle menor, pero muestra que la escalera de Theo ya estaba junto a la vitrina."
+  },
+  {
+    "persona": "nikos",
+    "afirmacion": "Dice que al volver a la cella activó la alarma a las 22:55 dando por buena la corona, sin levantar la tela.",
+    "evidencias": [
+      "nivel-3/interrogatorios/nikos.mp3#t=290",
+      "nivel-3/interrogatorios/nikos.mp3#t=306",
+      "nivel-1/accesos.csv#C-0149",
+      "nivel-2/celulares/dafne/whatsapp/Nikos Andreou.txt#L41",
+      "nivel-2/celulares/dafne/whatsapp/Nikos Andreou.txt#L45"
+    ],
+    "explicacion": "Es un límite de su declaración: no puede afirmar que la corona estaba a las 22:55. Su constancia es la foto de Dafne de las 22:45. Entre las 22:46 y las 22:53 nadie más que Theo estuvo en la cella, así que la última verificación real de la corona es la de las 22:45."
+  }
+]
