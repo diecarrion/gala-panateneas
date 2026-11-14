@@ -1,0 +1,182 @@
+[
+  {
+    "id": "entrada-cella",
+    "estado": "intervenida",
+    "motivo": "El evento C-0162 (Cella, AG-004, 22:48:31, OK) tiene un número fuera de la secuencia del controlador (cae entre C-0147 a las 22:46 y C-0148 a las 22:53), corresponde a una credencial sin permiso de Cella y a esa hora Petros estaba fuera del recinto: salió por Norte a las 22:44 y su foto con GPS lo ubica en el estacionamiento a las 22:51. La cuenta de administración del sistema se le había pasado a Theo a las 19:34. Se agregó deliberadamente para ubicar a Petros en la cella.",
+    "evidencias": [
+      "nivel-1/accesos.csv#C-0162",
+      "nivel-1/accesos.csv#C-0147",
+      "nivel-1/accesos.csv#C-0148",
+      "nivel-1/accesos.csv#N-0066",
+      "nivel-2/fotos/IMG_5128.jpg#EXIF",
+      "nivel-2/celulares/nikos/whatsapp/Theo Kallis.txt#L22",
+      "nivel-4/testimonios-escritos/03-eleni.md#L3"
+    ]
+  },
+  {
+    "id": "foto-anonima",
+    "estado": "intervenida",
+    "motivo": "Los metadatos dicen NIKON D750, 15/08 22:48:31 +03:00, con GPS de la cella: hora idéntica al evento C-0162. Pero la D750 es la cámara de Ariadna, sus fotos de esa noche no tienen GPS y usan la zona +02:00. Ariadna declara que fotografió a Petros en la escalinata antes de los fuegos (22:00) y no después. A las 22:48 Petros estaba fuera del recinto. Se editaron la fecha, la zona y la posición para que coincidieran con el registro plantado.",
+    "evidencias": [
+      "nivel-4/foto-anonima.jpg#EXIF",
+      "nivel-4/foto-anonima.jpg#imagen",
+      "nivel-2/fotos/DSC_2108.JPG#EXIF",
+      "nivel-2/fotos/DSC_2146.JPG#EXIF",
+      "nivel-4/testimonios-escritos/01-ariadna.md#L3",
+      "nivel-1/accesos.csv#N-0066",
+      "nivel-2/fotos/IMG_5128.jpg#EXIF"
+    ]
+  },
+  {
+    "id": "declaracion-dafne",
+    "estado": "confiable",
+    "motivo": "Coincide con el registro de la Cella (entra 22:38, sale 22:46, vuelve 23:09), con su foto de las 22:45 y con los mensajes con Kyra y Nikos. Límite: el detalle de la tela 'sobre una silla' no coincide con su foto (está sobre la escalera), y su constancia de la corona llega sólo hasta las 22:45.",
+    "evidencias": [
+      "nivel-3/interrogatorios/dafne.mp3#t=97",
+      "nivel-1/accesos.csv#C-0143",
+      "nivel-1/accesos.csv#C-0147",
+      "nivel-2/fotos/IMG_6152.jpg#imagen",
+      "nivel-2/celulares/dafne/whatsapp/Nikos Andreou.txt#L41"
+    ]
+  },
+  {
+    "id": "declaracion-nikos",
+    "estado": "confiable",
+    "motivo": "Coincide con el registro de la Cella (C-0144, C-0146, C-0149), con los mensajes a Dafne y Theo y con las declaraciones de Eleni y Dafne sobre su paso por Norte. Límite: activó la alarma a las 22:55 sin verificar la corona, así que no puede afirmar que estuviera en ese momento.",
+    "evidencias": [
+      "nivel-3/interrogatorios/nikos.mp3#t=180",
+      "nivel-1/accesos.csv#C-0144",
+      "nivel-1/accesos.csv#C-0146",
+      "nivel-1/accesos.csv#C-0149",
+      "nivel-2/celulares/nikos/whatsapp/Dafne Kostas.txt#L45",
+      "nivel-4/testimonios-escritos/03-eleni.md#L3"
+    ]
+  },
+  {
+    "id": "declaracion-theo",
+    "estado": "dudosa",
+    "motivo": "Lo central de su relato no se sostiene. Dice que salió de la cella con Dafne (ella sale a las 22:46, él a las 22:53) y que fue por un cable (a las 23:03 escribe a Hermes Antiques 'listo, ya está en la camioneta'). Yannis lo vio volver sin cable ni bolso, y Stavros lo vio junto a la camioneta levantando el bolso.",
+    "evidencias": [
+      "nivel-3/interrogatorios/theo.mp3#t=159",
+      "nivel-3/interrogatorios/theo.mp3#t=263",
+      "nivel-1/accesos.csv#C-0147",
+      "nivel-1/accesos.csv#C-0148",
+      "nivel-2/celulares/theo/telegram/result.json#chat-10013:mensaje-46",
+      "nivel-3/interrogatorios/yannis.mp3#t=294",
+      "nivel-4/testimonios-escritos/04-stavros.md#L3"
+    ]
+  },
+  {
+    "id": "declaracion-petros",
+    "estado": "dudosa",
+    "motivo": "Su coartada (terraza con Kyra de 22:40 a 23:00) no se sostiene: Kyra lo niega, sale por Norte a las 22:44 y vuelve a las 22:58, y su foto con GPS lo ubica en el estacionamiento. Su negativa a haber entrado a la cella sí resulta compatible con el expediente, porque las dos piezas que lo ubican allí están intervenidas.",
+    "evidencias": [
+      "nivel-3/interrogatorios/petros.mp3#t=133",
+      "nivel-3/interrogatorios/kyra.mp3#t=137",
+      "nivel-1/accesos.csv#N-0066",
+      "nivel-1/accesos.csv#N-0069",
+      "nivel-2/fotos/IMG_5128.jpg#EXIF"
+    ]
+  },
+  {
+    "id": "declaracion-marina",
+    "estado": "dudosa",
+    "motivo": "Afirma que no salió del templo en toda la noche, pero sale por Norte a las 22:45 y vuelve a las 22:57 (lo confirma Eleni), y por Telegram coordina el baúl con Petros. Lo que dice no alcanza para sostener su recorrido; nada la vincula con la cella.",
+    "evidencias": [
+      "nivel-3/interrogatorios/marina.mp3#t=133",
+      "nivel-1/accesos.csv#N-0067",
+      "nivel-1/accesos.csv#N-0068",
+      "nivel-2/celulares/marina/telegram/result.json#chat-10003:mensaje-31",
+      "nivel-4/testimonios-escritos/03-eleni.md#L3"
+    ]
+  },
+  {
+    "id": "declaracion-kyra",
+    "estado": "confiable",
+    "motivo": "Coincide con sus mensajes con Dafne (22:44-22:47), con su foto en la terraza de las 22:50 y con la declaración de Ioanna. Límite: desde la terraza no veía la puerta de la cella.",
+    "evidencias": [
+      "nivel-3/interrogatorios/kyra.mp3#t=116",
+      "nivel-2/celulares/kyra/whatsapp/Dafne Kostas.txt#L18",
+      "nivel-2/fotos/IMG_7305.jpg#EXIF",
+      "nivel-4/testimonios-escritos/02-ioanna.md#L3"
+    ]
+  },
+  {
+    "id": "declaracion-yannis",
+    "estado": "confiable",
+    "motivo": "Las horas que da coinciden con el registro de Sur corregido (+7:13): Stavros sale a las 22:49 y Theo sale a las 23:01 y vuelve a las 23:08, igual que su SMS. Límite: no vio la camioneta ni el contenido del bolso.",
+    "evidencias": [
+      "nivel-3/interrogatorios/yannis.mp3#t=159",
+      "nivel-3/interrogatorios/yannis.mp3#t=216",
+      "nivel-1/accesos.csv#S-0027",
+      "nivel-1/accesos.csv#S-0032",
+      "nivel-2/celulares/eleni/sms.xml#mensaje-68"
+    ]
+  },
+  {
+    "id": "declaracion-leon",
+    "estado": "dudosa",
+    "motivo": "Dice que estuvo toda la noche en el jardín. Lo contradicen el SMS de Eleni a las 22:40, su propio mensaje de las 22:46, la foto con GPS de la puerta Norte y las declaraciones de Nikos y Eleni. Él mismo admite que había tomado y que mezcla momentos.",
+    "evidencias": [
+      "nivel-3/interrogatorios/leon.mp3#t=62",
+      "nivel-2/celulares/eleni/sms.xml#mensaje-66",
+      "nivel-2/celulares/leon/whatsapp/Familia Kostas.txt#L63",
+      "nivel-2/fotos/IMG_4661.jpg#EXIF",
+      "nivel-4/testimonios-escritos/03-eleni.md#L3"
+    ]
+  },
+  {
+    "id": "testimonio-1",
+    "estado": "confiable",
+    "motivo": "Coincide con los metadatos de su Nikon D750 (zona +02:00, sin GPS) y con su mensaje desde el jardín. Explica el origen real de la imagen de Petros en la escalinata, tomada antes de los fuegos.",
+    "evidencias": [
+      "nivel-4/testimonios-escritos/01-ariadna.md#L3",
+      "nivel-2/fotos/DSC_2108.JPG#EXIF",
+      "nivel-2/celulares/ariadna/whatsapp/Kyra Alexiou.txt#L22"
+    ]
+  },
+  {
+    "id": "testimonio-2",
+    "estado": "dudosa",
+    "motivo": "Ubica a Petros en la baranda hacia las 22:50, pero reconoce que vio a un hombre de espaldas y lo asoció con Petros por lo que escuchó después. Aplicando la misma regla que a la declaración de Petros, una identificación inferida no alcanza frente a N-0066 y a la foto con GPS en el estacionamiento. Lo que dice de Kyra y Dafne en la terraza sí es confiable.",
+    "evidencias": [
+      "nivel-4/testimonios-escritos/02-ioanna.md#L3",
+      "nivel-1/accesos.csv#N-0066",
+      "nivel-2/fotos/IMG_5128.jpg#EXIF"
+    ]
+  },
+  {
+    "id": "testimonio-3",
+    "estado": "confiable",
+    "motivo": "Coincide punto por punto con el registro de Norte (Petros sale 22:44 y vuelve 22:58; Marina sale 22:45 y vuelve 22:57) y con su SMS sobre Leon. Es testigo directa en su puesto.",
+    "evidencias": [
+      "nivel-4/testimonios-escritos/03-eleni.md#L3",
+      "nivel-1/accesos.csv#N-0066",
+      "nivel-1/accesos.csv#N-0067",
+      "nivel-1/accesos.csv#N-0068",
+      "nivel-1/accesos.csv#N-0069",
+      "nivel-2/celulares/eleni/sms.xml#mensaje-66"
+    ]
+  },
+  {
+    "id": "testimonio-4",
+    "estado": "confiable",
+    "motivo": "Coincide con su segundo viaje al camión (Sur, 23:02 a 23:06, con la corrección) y con su foto de las 23:04 en la zona de servicio. Límite: vio a Theo con el bolso pero no su contenido.",
+    "evidencias": [
+      "nivel-4/testimonios-escritos/04-stavros.md#L3",
+      "nivel-1/accesos.csv#S-0030",
+      "nivel-1/accesos.csv#S-0031",
+      "nivel-2/fotos/IMG_8026.jpg#EXIF"
+    ]
+  },
+  {
+    "id": "testimonio-5",
+    "estado": "dudosa",
+    "motivo": "Repite la versión del jardín, que contradicen el SMS de Eleni, su mensaje de las 22:46 y la foto con GPS de Norte. Él mismo dice que había tomado y mezcla momentos. Lo único confiable es que la foto la sacó él, con el reloj del teléfono reseteado; su hora se toma del GPS.",
+    "evidencias": [
+      "nivel-4/testimonios-escritos/05-leon.md#L3",
+      "nivel-2/celulares/eleni/sms.xml#mensaje-66",
+      "nivel-2/fotos/IMG_4661.jpg#EXIF"
+    ]
+  }
+]
